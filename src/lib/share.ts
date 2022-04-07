@@ -2,7 +2,8 @@ import { getGuessStatuses } from './statuses'
 import { solutionIndex, unicodeSplit } from './words'
 import { MAX_CHALLENGES } from '../constants/settings'
 import { UAParser } from 'ua-parser-js'
-
+import copy from 'copy-to-clipboard';
+ 
 const webShareApiDeviceTypes: string[] = ['mobile', 'smarttv', 'wearable']
 const parser = new UAParser()
 const browser = parser.getBrowser()
@@ -24,6 +25,8 @@ export const shareStatus = (
 
   const shareData = { text: textToShare }
 
+  copy(textToShare);
+
   let shareSuccess = false
 
   try {
@@ -33,6 +36,7 @@ export const shareStatus = (
     }
   } catch (error) {
     shareSuccess = false
+    copy('Footballdle - www.footballdle.co.uk');
   }
 
   if (!shareSuccess) {
