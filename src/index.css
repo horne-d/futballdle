@@ -198,3 +198,7 @@ svg.cursor-pointer:hover {
     transform: translate(0, 0);
   }
 }
+
+.grow {
+  flex-grow: 0.5;
+}
