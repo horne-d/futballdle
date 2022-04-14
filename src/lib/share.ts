@@ -21,7 +21,8 @@ export const shareStatus = (
     `Footballdle ${solutionIndex} ${
       lost ? 'X' : guesses.length
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
-    generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode))
+    generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode)) +
+    '\n\n www.footballdle.co.uk' + '\n\n #footballdle'
 
   const shareData = { text: textToShare }
 
