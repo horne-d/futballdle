@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/futballdle/static/css/main.7e28a202.css",
-    "main.js": "/futballdle/static/js/main.4537dc7c.js",
+    "main.js": "/futballdle/static/js/main.eed895df.js",
     "static/js/787.b3f9d252.chunk.js": "/futballdle/static/js/787.b3f9d252.chunk.js",
     "index.html": "/futballdle/index.html",
     "main.7e28a202.css.map": "/futballdle/static/css/main.7e28a202.css.map",
-    "main.4537dc7c.js.map": "/futballdle/static/js/main.4537dc7c.js.map",
+    "main.eed895df.js.map": "/futballdle/static/js/main.eed895df.js.map",
     "787.b3f9d252.chunk.js.map": "/futballdle/static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e28a202.css",
-    "static/js/main.4537dc7c.js"
+    "static/js/main.eed895df.js"
   ]
 }
