@@ -1,7 +1,7 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
 export const WIN_MESSAGES = ['We have a winner!', 'Awesome!', 'Well done!', 'Nice work!']
-export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
+export const GAME_COPIED_MESSAGE = 'Copied to clipboard'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
 export const WORD_NOT_FOUND_MESSAGE = 'Footballer not found'
 export const HARD_MODE_ALERT_MESSAGE =
